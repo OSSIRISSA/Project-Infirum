@@ -3,6 +3,17 @@
 	"EngineAssociation": "5.5",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Project_Infirum",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -44,6 +55,10 @@
 		},
 		{
 			"Name": "DeformerGraph",
+			"Enabled": true
+		},
+		{
+			"Name": "PCG",
 			"Enabled": true
 		}
 	]
